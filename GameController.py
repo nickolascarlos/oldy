@@ -1,6 +1,8 @@
+from OldyGame import OldyGame
+
 class GameController:
     def __init__(self, myValue, conn):
-        self.game = OldeyGame()
+        self.game = OldyGame()
         self.myValue = myValue
         self.conn = conn
 
